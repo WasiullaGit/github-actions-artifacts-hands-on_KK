@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Create a text file
       run: echo "Hello, world!" > hello.txt
@@ -18,4 +18,4 @@ jobs:
       with:
         name: hello-artifact
         path: hello.txt
-        
+
